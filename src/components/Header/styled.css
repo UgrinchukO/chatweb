@@ -1,0 +1,61 @@
+header{
+    width: 100%;
+    position: relative;
+    height: 60px;
+    display: flex;
+    background: #f5f5f5;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.logo img {
+    width: 50px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: #f6f6f6;
+    border-radius: 80%;
+    border: 1px solid white;
+}
+
+.nameUser {
+    margin: 20px;
+    color: #7e7e7e;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    margin: 20px;
+}
+
+.menu > li > a{
+    color: #7e7e7e;
+    font-family: Calibri;
+    font-weight: bold;
+    text-shadow: 0 0;
+    text-decoration: none;
+}
+
+.leftMenu{
+    display: flex;
+    color: #fff;
+    margin: 20px;
+}
+
+.leftMenu > li{
+    margin: 0 10px;
+}
+
+.leftMenu > li > a{
+    color: #7e7e7e;
+}
+
+.leftMenu > li > a.active{
+    font-weight: bold;
+}
+
+.logout li {
+    font-family: Calibri;
+    font-weight: bold;
+}
