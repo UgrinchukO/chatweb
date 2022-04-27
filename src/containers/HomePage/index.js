@@ -11,7 +11,7 @@ const User = (props) => {
         <div onClick={() => onClick(user)} className="displayName">
 
             <div className="displayPic">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpE9t8ecfF7lusS8jjCd-GlgquMwS0kI6SSZ5e6wQ7CjCwIwuqsxc6oBpHDr92J72g308&usqp=CAU" alt=""/>
+                <img src="https://findicons.com/files/icons/1994/vista_style_business_and_data/256/users.png" alt=""/>
             </div>
 
             <div style={{display: 'flex', flex: 1, justifyContent: 'space-between', margin: '0 10px'}}>

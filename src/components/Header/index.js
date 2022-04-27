@@ -23,7 +23,7 @@ const Header = (props) => {
         <header className="header">
             <div style={{display: 'flex'}}>
                 <div className="logo">
-                    <img src="https://cdn.clipartsfree.net/vector/medium/72996-grey-silhouette-of-man-images.png"/>
+                    <img src="https://icon-library.com/images/check-in-icon/check-in-icon-5.jpg"/>
                 </div>
                 <div className= "nameUser" >
                     {auth.authenticated ? `${auth.firstName} ${auth.lastName}` : ''}
